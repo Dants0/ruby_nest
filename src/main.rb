@@ -1,5 +1,5 @@
 require_relative "./class/ruby_nest"
 
-obj = RubyNest.new("selectAll", "users", "users")
+obj = RubyNest.find_by_id("users", 2)
 
-obj.all_table
+obj
