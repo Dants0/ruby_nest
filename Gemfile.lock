@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    ruby_nest (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mysql2 (0.5.5)
+    rake (13.1.0)
+    rufo (0.16.3)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  mysql2 (~> 0.5.5)
+  rake (~> 13.0)
+  ruby_nest!
+  rufo
+
+BUNDLED WITH
+   2.5.3
