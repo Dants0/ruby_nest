@@ -23,7 +23,7 @@ class RubyNest
   def select_all
     query = "SELECT * FROM #{@table}"
     results = @client_main.query(query)
-    get_results(results)
+    results.to_a
   end
 
   def find_by_name(name)
