@@ -6,18 +6,40 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    minitest (5.20.0)
+    mocha (2.1.0)
+      ruby2_keywords (>= 0.0.5)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
     mysql2 (0.5.5)
+    nio4r (2.7.0)
+    puma (6.4.0)
+      nio4r (~> 2.0)
+    rack (2.2.8)
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rake (13.1.0)
+    ruby2_keywords (0.0.5)
     rufo (0.16.3)
+    sinatra (3.1.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.1.0)
+      tilt (~> 2.0)
+    tilt (2.3.0)
 
 PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  minitest
+  mocha
   mysql2 (~> 0.5.5)
+  puma
   rake (~> 13.0)
   ruby_nest!
   rufo
+  sinatra
 
 BUNDLED WITH
    2.5.3

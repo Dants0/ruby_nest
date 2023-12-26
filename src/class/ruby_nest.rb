@@ -49,4 +49,8 @@ class RubyNest
       puts row
     end
   end
+
+  def get_results_tests(results)
+    results
+  end
 end

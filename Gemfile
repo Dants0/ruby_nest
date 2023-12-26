@@ -10,3 +10,5 @@ gem "mysql2", "~> 0.5.5"
 gem "rufo"
 gem 'sinatra'
 gem 'puma'
+gem 'minitest'
+gem 'mocha'
