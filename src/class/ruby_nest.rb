@@ -8,6 +8,10 @@ class RubyNest
     connection
   end
 
+  def self.delete_by_id(table, id)
+    new(table).delete_by_id(id)
+  end
+
   def self.select_all(table)
     new(table).select_all
   end
@@ -35,7 +39,12 @@ class RubyNest
   def find_by_id(id)
     query = "SELECT * FROM #{@table} WHERE id = #{id}"
     results = @client_main.query(query)
-    get_results(results)
+    results.to_a
+  end
+
+  def delete_by_id(id)
+    query = "DELETE FROM #{@table} WHERE id = #{id}"
+    results = @client_main.query(query)
   end
 
   private
