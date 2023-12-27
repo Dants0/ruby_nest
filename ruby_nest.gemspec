@@ -4,16 +4,16 @@ require_relative "lib/ruby_nest/version"
 
 Gem::Specification.new do |spec|
   spec.name = "ruby_nest"
-  spec.version = RubyNest::VERSION
+  spec.version = "0.0.2"
   spec.authors = "Guilherme Dantas"
   spec.email = "guilhermedg@outlook.com"
 
-  spec.summary = "Summary test"
-  spec.description = "First description"
-  spec.homepage = "https://github.com/Dants0/ruby_nest"
+  spec.summary = "ORM"
+  spec.description = "A simple orm ruby gem"
+  spec.homepage = "https://rubygems.org/gems/ruby_nest"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/Dants0/ruby_nest"
